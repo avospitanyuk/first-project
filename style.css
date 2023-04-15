@@ -1,3 +1,7 @@
+@import url('./fixfile.css');
+@import url(./remove-squares.css);
+
+
 body,
 html {
   width: 100%;
@@ -24,7 +28,7 @@ html {
   background-repeat: no-repeat;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  background-image: url('../images/cat.svg');
+  background-image: url('./cat.svg');
   filter: blur(16px);
   animation: removeBlur 3s forwards;
 }
@@ -101,3 +105,4 @@ html {
   -o-animation-name: removeBackground, fadeOutLeft;
   animation-name: removeBackground, fadeOutLeft;
 }
+
